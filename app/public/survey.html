@@ -22,9 +22,10 @@
                 <span class="glyphicon glyphicon-heart"></span>
             </h1>
             <hr>
-            <h2 class="text-center">Tell us about yourself!</h2>
+            <h2 class="text-center">Because you look like you need a friend...</h2>
             <br>
 
+            <!-- Button navs -->
             <div class="text-center">
                 <a href="/api/friends">
                     <!--link to api/friends-->
@@ -42,7 +43,29 @@
         <div class="row">
             <div class="col-lg-12"></div>
 
-            <!-- Survey Page -->
+            <!-- Friend Info -->
+            <div class="panel panel-default">
+                <div class="panel-heading">
+                    <h3 class="panel-title">
+                        <strong>Who are you anyway?</strong>
+                    </h3>
+                </div>
+                <div class="panel-body">
+                    <h4><strong>Waddaya go by?</strong></h4>
+                    <div class="input-group">
+                        <input id="formName" class="form-control" type="text" name="name" placeholder="Your Name Here">
+                        <span class="input-group-addon"></span>
+                    </div>
+                    <br>
+                    <h4><strong>Waddaya look like?</strong></h4>
+                    <div class="input-group">
+                        <input id="formImage" class="form-control" type="text" name="name" placeholder="http://yourfakefoto.com.jpg/">
+                        <span class="input-group-addon"></span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Survey Form -->
             <div class="panel panel-default">
                 <div class="panel-heading">
                     <h5 class="panel-title">
@@ -98,7 +121,7 @@
 
                     <!-- Question form 4 -->
                     <h5>
-                        <strong>You have great personal hygiene</strong>
+                        <strong>You have great personal hygiene.</strong>
                     </h5>
                     <select data-placeholder="" class="question-select" id="q4">
                         <option value=""></option>
@@ -113,7 +136,7 @@
 
                     <!-- Question form 5 -->
                     <h5>
-                        <strong>You're usually unaware of others around</strong>
+                        <strong>You're usually unaware of others around.</strong>
                     </h5>
                     <select data-placeholder="" class="question-select" id="q5">
                         <option value=""></option>
@@ -128,7 +151,7 @@
 
                     <!-- Question form 6 -->
                     <h5>
-                        <strong>You're an active listener</strong>
+                        <strong>You're an active listener.</strong>
                     </h5>
                     <select data-placeholder="" class="question-select" id="q6">
                         <option value=""></option>
@@ -188,7 +211,7 @@
 
                     <!-- Question form 10 -->
                     <h5>
-                        <strong>Others often refer to you as "THAT [pronoun]"</strong>
+                        <strong>Others often refer to you as "THAT [pronoun]."</strong>
                     </h5>
                     <select data-placeholder="" class="question-select" id="q10">
                         <option value=""></option>
@@ -205,7 +228,7 @@
             </div>
 
             <!-- Submit button  -->
-            <button type="submit" class="btn btn-danger btn-lg btn-block" id="submit">Submit</button>
+            <button type="submit" class="btn btn-danger btn-lg btn-block" id="submit">Let's make some friends!</button>
             <br>
         </div>
     </div>
